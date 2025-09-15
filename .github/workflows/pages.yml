@@ -39,7 +39,7 @@ jobs:
           <?xml version="1.0" encoding="UTF-8"?>
           <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
             <url><loc>${BASE_URL}/about.html</loc></url>
-            <url><loc>${BASE_URL}/fail.html</loc></url>
+            <url><loc>${BASE_URL}/products.html?stall=1&v=2</loc></url>
             <url><loc>${BASE_URL}/index.html?stall=1</loc></url>
             <url><loc>${BASE_URL}/products.html?stall=1</loc></url>
             <url><loc>${BASE_URL}/blog.html?stall=1</loc></url>
@@ -69,3 +69,4 @@ jobs:
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v4
+
